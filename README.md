@@ -33,3 +33,38 @@
 | spring-web-6.1.3 | CVE-2024-22243, CVE-2024-22262 |
 | spring-webmvc-6.0.10 | CVE-2023-34053 |
 | testng-7.4.0.jar | CVE-2022-4065 |
+
+## Direct and transitive dependencies
+| Direct | Transitive |
+| --- | --- |
+| axis-1.4 | spec.alpha-0.3.218, org.specs.alpha-0.2.62 |
+| clojure-1.11.1 |  |
+| commons-beanutils-1.8.3 |  |
+| clojure-1.11.1 |  |
+| commons-collections-3.2 |  |
+| commons-io-2.4 |  |
+| fastjson-1.2.22 |  |
+| gson-2.8.6 |  |
+| guava-24.1.1-jre | jsr305-1.3.9, error_prone_annotations-2.1.3, j2objc-annotations-1.1, checker-compat-qual-2.0.0, animal-sniffer-annotations-1.14 |
+| h2-2.0.204 |  |
+| httpclient-4.5.11 | commons-codec-1.11, commons-logging-1.2, httpcore-4.4.13 |
+| jackson-databind-2.13.1 | jackson-annotations-2.13.1, jackson-core-2.13.1 |
+| json-20200518 |  |
+| junit-4.12 | hamcrest-core-1.3 |
+| kotlin-stdlib-0.6.22 | kotlin-runtime-0.6.22 |
+| log4j-core-2.17.0 | log4j-api-2.17.0 |
+| logback-classic-1.1.11 | slf4j-api-1.7.22 |
+| logback-core-1.3.5 |  |
+| mysql-connector-java-8.0.11 |  |
+| okhttp-3.1.0 | okio-1.6.0 |
+| protobuf-java-3.21.5 |  |
+| retrofit-2.3.0 |  |
+| scala-library-2.13.0 |  |
+| spring-beans-5.3.4 |  |
+| spring-boot-autoconfigure-3.0.3 | spring-boot-3.0.3 |
+| spring-boot-starter-web-2.6.0 | spring-boot-starter-2.6.0, spring-boot-starter-json-2.6.0, spring-boot-starter-tomcat-2.6.0, spring-boot-starter-logging-2.6.0, snakeyaml-1.29, jakarta.annotation-api-1.3.5, jackson-datatype-jdk8-2.13.0, jackson-datatype-jsr310-2.13.0, jackson-module-parameter-names-2.13.0, tomcat-embed-core-9.0.55, tomcat-embed-el-9.0.55, tomcat-embed-websocket-9.0.55, log4j-to-slf4j-2.14.1, jul-to-slf4j-1.7.32 |
+| spring-context-5.3.12 | spring-aop-5.3.12, spring-expression-5.3.12 |
+| spring-core-6.0.3 | spring-jcl-6.0.3 |
+| spring-web-6.1.3 | micrometer-observation-1.12.2, micrometer-commons-1.12.2 |
+| spring-webmvc-6.0.10 |  |
+| testng-7.4.0.jar | jcommander-1.78, jquery-3.5.1 |
